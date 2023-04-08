@@ -19,7 +19,8 @@ pip3 install jmespath
 ###
 
  # install to master && client machine
-  
+ 
+ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root cluster.yml --skip-tags=multus  
 
 yum install python3-pip git -y 
 
