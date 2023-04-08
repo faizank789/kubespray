@@ -20,10 +20,11 @@ pip3 install jmespath
 
  # install to master && client machine
  
+ # To run
 ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root cluster.yml --skip-tags=multus  
 
-yum install python3-pip git -y 
+# yum install python3-pip git -y 
 
-pip3 install --upgrade pip \
+# pip3 install --upgrade pip \
 
-pip3 install jmespath 
+# pip3 install jmespath 
